@@ -1,0 +1,5 @@
+package edu.jspiders.simplemavenproject;
+
+public class ReplaceSpacesWithSingelSpace {
+
+}

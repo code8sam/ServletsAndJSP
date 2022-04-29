@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+  <display-name>MyFirstJSPProject</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+  
+  <servlet>
+  		<servlet-name>secondJSP</servlet-name>
+  		<jsp-file>/WEB-INF/views/MySecondJSPPage.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  		<servlet-name>secondJSP</servlet-name>
+  		<url-pattern>/second</url-pattern>
+  </servlet-mapping>
+  
+  
+   <servlet>
+  		<servlet-name>fullNameJsp</servlet-name>
+  		<jsp-file>/WEB-INF/views/fullNamePage.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  		<servlet-name>fullNameJsp</servlet-name>
+  		<url-pattern>/fullName</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+  		<servlet-name>jspTagsDemo</servlet-name>
+  		<jsp-file>/WEB-INF/views/jspTagsDemo.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  		<servlet-name>jspTagsDemo</servlet-name>
+  		<url-pattern>/tagsDemo</url-pattern>
+  </servlet-mapping>
+  
+</web-app>

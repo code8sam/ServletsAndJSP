@@ -1,0 +1,23 @@
+package edu.jspiders.simplemavenproject;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+        System.out.println( "Hello World!" );
+        App app = new App();
+        app.test(1,5,8,15,78,78,56,23);
+    }
+    
+    
+    public void test(int ...a) 
+    {
+    	for (int i : a) {
+			System.out.println(i);
+		}
+    }
+}

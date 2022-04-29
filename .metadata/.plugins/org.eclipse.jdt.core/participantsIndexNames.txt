@@ -1,0 +1,7 @@
+INDEX VERSION 1.130
+E:\Rakshith\J2EE\HEJM33\Servlets\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3234125499.index
+\CRUDOperationsUsingJSP\src
+E:\Rakshith\J2EE\HEJM33\Servlets\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1937771334.index
+\MyFirstJSPProject\src
+E:\Rakshith\J2EE\HEJM33\Servlets\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2821530832.index
+\MyFirstJSPProject\src
